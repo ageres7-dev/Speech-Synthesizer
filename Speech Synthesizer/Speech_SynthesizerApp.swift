@@ -13,7 +13,7 @@ struct Speech_SynthesizerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBar()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

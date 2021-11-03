@@ -13,6 +13,8 @@
 		3BF9C085271DD84800ADB970 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF9C084271DD84800ADB970 /* Preview Assets.xcassets */; };
 		3BF9C087271DD84800ADB970 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9C086271DD84800ADB970 /* Persistence.swift */; };
 		3BF9C08A271DD84800ADB970 /* Speech_Synthesizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9C088271DD84800ADB970 /* Speech_Synthesizer.xcdatamodeld */; };
+		3BF9C091271DDD4A00ADB970 /* Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9C090271DDD4A00ADB970 /* Speech.swift */; };
+		3BF9C093271DDD5D00ADB970 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9C092271DDD5D00ADB970 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		3BF9C084271DD84800ADB970 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3BF9C086271DD84800ADB970 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3BF9C089271DD84800ADB970 /* Speech_Synthesizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Speech_Synthesizer.xcdatamodel; sourceTree = "<group>"; };
+		3BF9C090271DDD4A00ADB970 /* Speech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech.swift; sourceTree = "<group>"; };
+		3BF9C092271DDD5D00ADB970 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B00D2E927331EA700DF20F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BF9C081271DD84800ADB970 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B00D2EA27331F1500DF20F2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3B00D2EB27331F2C00DF20F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BF9C07F271DD84600ADB970 /* ContentView.swift */,
+				3BF9C090271DDD4A00ADB970 /* Speech.swift */,
+				3BF9C092271DDD5D00ADB970 /* TabBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3B00D2EC27331F9900DF20F2 /* DataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				3BF9C086271DD84800ADB970 /* Persistence.swift */,
+				3BF9C088271DD84800ADB970 /* Speech_Synthesizer.xcdatamodeld */,
+			);
+			path = DataStorage;
+			sourceTree = "<group>";
+		};
 		3BF9C071271DD84600ADB970 = {
 			isa = PBXGroup;
 			children = (
@@ -55,11 +93,11 @@
 		3BF9C07C271DD84600ADB970 /* Speech Synthesizer */ = {
 			isa = PBXGroup;
 			children = (
+				3B00D2EC27331F9900DF20F2 /* DataStorage */,
+				3B00D2EB27331F2C00DF20F2 /* Views */,
+				3B00D2EA27331F1500DF20F2 /* Services */,
+				3B00D2E927331EA700DF20F2 /* Supporting Files */,
 				3BF9C07D271DD84600ADB970 /* Speech_SynthesizerApp.swift */,
-				3BF9C07F271DD84600ADB970 /* ContentView.swift */,
-				3BF9C081271DD84800ADB970 /* Assets.xcassets */,
-				3BF9C086271DD84800ADB970 /* Persistence.swift */,
-				3BF9C088271DD84800ADB970 /* Speech_Synthesizer.xcdatamodeld */,
 				3BF9C083271DD84800ADB970 /* Preview Content */,
 			);
 			path = "Speech Synthesizer";
@@ -146,7 +184,9 @@
 				3BF9C087271DD84800ADB970 /* Persistence.swift in Sources */,
 				3BF9C080271DD84600ADB970 /* ContentView.swift in Sources */,
 				3BF9C08A271DD84800ADB970 /* Speech_Synthesizer.xcdatamodeld in Sources */,
+				3BF9C093271DDD5D00ADB970 /* TabBar.swift in Sources */,
 				3BF9C07E271DD84600ADB970 /* Speech_SynthesizerApp.swift in Sources */,
+				3BF9C091271DDD4A00ADB970 /* Speech.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
