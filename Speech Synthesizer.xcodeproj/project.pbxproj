@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B00D2EE2735BB5300DF20F2 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00D2ED2735BB5300DF20F2 /* SpeechService.swift */; };
 		3BF9C07E271DD84600ADB970 /* Speech_SynthesizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9C07D271DD84600ADB970 /* Speech_SynthesizerApp.swift */; };
 		3BF9C080271DD84600ADB970 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9C07F271DD84600ADB970 /* ContentView.swift */; };
 		3BF9C082271DD84800ADB970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF9C081271DD84800ADB970 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B00D2ED2735BB5300DF20F2 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
 		3BF9C07A271DD84600ADB970 /* Speech Synthesizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speech Synthesizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF9C07D271DD84600ADB970 /* Speech_SynthesizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech_SynthesizerApp.swift; sourceTree = "<group>"; };
 		3BF9C07F271DD84600ADB970 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		3B00D2EA27331F1500DF20F2 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				3B00D2ED2735BB5300DF20F2 /* SpeechService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				3BF9C080271DD84600ADB970 /* ContentView.swift in Sources */,
 				3BF9C08A271DD84800ADB970 /* Speech_Synthesizer.xcdatamodeld in Sources */,
 				3BF9C093271DDD5D00ADB970 /* TabBar.swift in Sources */,
+				3B00D2EE2735BB5300DF20F2 /* SpeechService.swift in Sources */,
 				3BF9C07E271DD84600ADB970 /* Speech_SynthesizerApp.swift in Sources */,
 				3BF9C091271DDD4A00ADB970 /* Speech.swift in Sources */,
 			);
