@@ -25,7 +25,7 @@ class SpeechService: NSObject, ObservableObject {
 //    var preUtteranceDelay: TimeInterval = 0
 //    var postUtteranceDelay: TimeInterval = 0
     
-    var selectedVoice: AVSpeechSynthesisVoice?
+    var selectedVoice: AVSpeechSynthesisVoice? = AVSpeechSynthesisVoice(identifier: "com.apple.ttsbundle.Milena-premium")
     
     var availableVoices: [AVSpeechSynthesisVoice] {
         AVSpeechSynthesisVoice.speechVoices()

@@ -8,18 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		3B00D2EE2735BB5300DF20F2 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00D2ED2735BB5300DF20F2 /* SpeechService.swift */; };
+		3B1B9F44273B15CC00DC9043 /* MultilineTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B9F43273B15CC00DC9043 /* MultilineTextFieldView.swift */; };
+		3B6F62CC27371E7E00D8C2DA /* Text + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F62CB27371E7E00D8C2DA /* Text + Ext.swift */; };
+		3BAAFA63274829D500B66801 /* DeviceRotationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFA62274829D500B66801 /* DeviceRotationViewModifier.swift */; };
+		3BAAFA652748495900B66801 /* View + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFA642748495900B66801 /* View + Ext.swift */; };
+		3BEF968C27459FE0007E6E7D /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEF968B27459FE0007E6E7D /* BlurView.swift */; };
 		3BF9C07E271DD84600ADB970 /* Speech_SynthesizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9C07D271DD84600ADB970 /* Speech_SynthesizerApp.swift */; };
 		3BF9C080271DD84600ADB970 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9C07F271DD84600ADB970 /* ContentView.swift */; };
 		3BF9C082271DD84800ADB970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF9C081271DD84800ADB970 /* Assets.xcassets */; };
 		3BF9C085271DD84800ADB970 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF9C084271DD84800ADB970 /* Preview Assets.xcassets */; };
 		3BF9C087271DD84800ADB970 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9C086271DD84800ADB970 /* Persistence.swift */; };
 		3BF9C08A271DD84800ADB970 /* Speech_Synthesizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9C088271DD84800ADB970 /* Speech_Synthesizer.xcdatamodeld */; };
-		3BF9C091271DDD4A00ADB970 /* Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9C090271DDD4A00ADB970 /* Speech.swift */; };
+		3BF9C091271DDD4A00ADB970 /* TextEntryBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9C090271DDD4A00ADB970 /* TextEntryBarView.swift */; };
 		3BF9C093271DDD5D00ADB970 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9C092271DDD5D00ADB970 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B00D2ED2735BB5300DF20F2 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
+		3B1B9F43273B15CC00DC9043 /* MultilineTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextFieldView.swift; sourceTree = "<group>"; };
+		3B6F62CB27371E7E00D8C2DA /* Text + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text + Ext.swift"; sourceTree = "<group>"; };
+		3BAAFA62274829D500B66801 /* DeviceRotationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRotationViewModifier.swift; sourceTree = "<group>"; };
+		3BAAFA642748495900B66801 /* View + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Ext.swift"; sourceTree = "<group>"; };
+		3BEF968B27459FE0007E6E7D /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		3BF9C07A271DD84600ADB970 /* Speech Synthesizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speech Synthesizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF9C07D271DD84600ADB970 /* Speech_SynthesizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech_SynthesizerApp.swift; sourceTree = "<group>"; };
 		3BF9C07F271DD84600ADB970 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,7 +37,7 @@
 		3BF9C084271DD84800ADB970 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3BF9C086271DD84800ADB970 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3BF9C089271DD84800ADB970 /* Speech_Synthesizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Speech_Synthesizer.xcdatamodel; sourceTree = "<group>"; };
-		3BF9C090271DDD4A00ADB970 /* Speech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech.swift; sourceTree = "<group>"; };
+		3BF9C090271DDD4A00ADB970 /* TextEntryBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEntryBarView.swift; sourceTree = "<group>"; };
 		3BF9C092271DDD5D00ADB970 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,20 +71,48 @@
 		3B00D2EB27331F2C00DF20F2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3BAAFA61274829C200B66801 /* ViewModifiers */,
+				3B6F62C72737126100D8C2DA /* Custom Views */,
 				3BF9C07F271DD84600ADB970 /* ContentView.swift */,
-				3BF9C090271DDD4A00ADB970 /* Speech.swift */,
 				3BF9C092271DDD5D00ADB970 /* TabBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		3B00D2EC27331F9900DF20F2 /* DataStorage */ = {
+		3B00D2EC27331F9900DF20F2 /* Data Storage */ = {
 			isa = PBXGroup;
 			children = (
 				3BF9C086271DD84800ADB970 /* Persistence.swift */,
 				3BF9C088271DD84800ADB970 /* Speech_Synthesizer.xcdatamodeld */,
 			);
-			path = DataStorage;
+			path = "Data Storage";
+			sourceTree = "<group>";
+		};
+		3B6F62C72737126100D8C2DA /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BF9C090271DDD4A00ADB970 /* TextEntryBarView.swift */,
+				3B1B9F43273B15CC00DC9043 /* MultilineTextFieldView.swift */,
+				3BEF968B27459FE0007E6E7D /* BlurView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		3B6F62CA27371E6000D8C2DA /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				3B6F62CB27371E7E00D8C2DA /* Text + Ext.swift */,
+				3BAAFA642748495900B66801 /* View + Ext.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		3BAAFA61274829C200B66801 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				3BAAFA62274829D500B66801 /* DeviceRotationViewModifier.swift */,
+			);
+			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
 		3BF9C071271DD84600ADB970 = {
@@ -96,7 +134,8 @@
 		3BF9C07C271DD84600ADB970 /* Speech Synthesizer */ = {
 			isa = PBXGroup;
 			children = (
-				3B00D2EC27331F9900DF20F2 /* DataStorage */,
+				3B6F62CA27371E6000D8C2DA /* Extentions */,
+				3B00D2EC27331F9900DF20F2 /* Data Storage */,
 				3B00D2EB27331F2C00DF20F2 /* Views */,
 				3B00D2EA27331F1500DF20F2 /* Services */,
 				3B00D2E927331EA700DF20F2 /* Supporting Files */,
@@ -189,8 +228,13 @@
 				3BF9C08A271DD84800ADB970 /* Speech_Synthesizer.xcdatamodeld in Sources */,
 				3BF9C093271DDD5D00ADB970 /* TabBar.swift in Sources */,
 				3B00D2EE2735BB5300DF20F2 /* SpeechService.swift in Sources */,
+				3B6F62CC27371E7E00D8C2DA /* Text + Ext.swift in Sources */,
+				3B1B9F44273B15CC00DC9043 /* MultilineTextFieldView.swift in Sources */,
+				3BAAFA63274829D500B66801 /* DeviceRotationViewModifier.swift in Sources */,
+				3BEF968C27459FE0007E6E7D /* BlurView.swift in Sources */,
 				3BF9C07E271DD84600ADB970 /* Speech_SynthesizerApp.swift in Sources */,
-				3BF9C091271DDD4A00ADB970 /* Speech.swift in Sources */,
+				3BAAFA652748495900B66801 /* View + Ext.swift in Sources */,
+				3BF9C091271DDD4A00ADB970 /* TextEntryBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -303,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +373,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -359,7 +403,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

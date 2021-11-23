@@ -10,10 +10,10 @@ import SwiftUI
 struct TabBar: View {
     var body: some View {
         TabView {
-            Speech()
-                .tabItem {
-                    Label("Speech", systemImage: "waveform.circle")
-                }
+//            TextEntryBarView()
+//                .tabItem {
+//                    Label("Speech", systemImage: "waveform.circle")
+//                }
             
             ContentView()
                 .tabItem {

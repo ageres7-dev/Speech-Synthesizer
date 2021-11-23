@@ -15,6 +15,7 @@ struct Speech_SynthesizerApp: App {
         WindowGroup {
             TabBar()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environmentObject(SpeechService.shared)
         }
     }
 }
